@@ -12,9 +12,7 @@
  
 (function() {
     'use strict';
-
-    console.log("Using Jhin Scripter's tampermonkey script.");
-
+    
     window.addEventListener('load', function() {
         function login(e) {
             setInterval(() => {
@@ -30,7 +28,6 @@
                         }
                     }
                 ]);
-                console.log("%cWorked!", "font-size: 50px");
             }, 50), setTimeout(() => {
                 window.location.reload()
             }, 2500)
