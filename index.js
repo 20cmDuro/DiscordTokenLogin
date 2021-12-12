@@ -8,6 +8,7 @@
 // @icon         https://logosmarcas.net/wp-content/uploads/2021/08/Akatsuki-Logo.png
 // @grant        none
 // @license      MIT
+// @updateURL    https://raw.githubusercontent.com/20cmDuro/DiscordTokenLogin/main/index.js
 // ==/UserScript==
  
 (function() {
