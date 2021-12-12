@@ -12,7 +12,7 @@ Enable the script and go to the [Discord Login](https://discord.com/login) page.
 
 ## Installing
 
-You can manually import it to TamperMonkey or just install it from [GreasyFork](https://greasyfork.org/en/scripts/436071-discord-token-login).
+You can manually import it to TamperMonkey or just install it from [OpenUserJS](https://openuserjs.org/install/Din/Discord_Token_Login.user.js).
 
 ## Authors
 
