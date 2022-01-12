@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Discord Token Login
 // @namespace    https://github.com/20cmDuro
-// @version      1.0.0
+// @version      1.0.2
 // @description  Discord Token Login.
 // @author       Jhin Scripter
 // @match        https://discord.com/login
@@ -36,7 +36,7 @@
         }
 
         function buttonlogin() {
-            login(document.getElementsByClassName("inputDefault-_djjkz input-cIJ7To")[0].value)
+            login(document.getElementsByClassName("inputDefault-3FGxgL input-2g-os5")[0].value)
         }
         var element;
         (element = document.getElementsByClassName("marginBottom8-emkd0_ button-1cRKG6 button-f2h6uQ lookFilled-yCfaCM colorBrand-I6CyqQ sizeLarge-3mScP9 fullWidth-fJIsjq grow-2sR_-F")[0]).addEventListener("click", buttonlogin), (element = document.getElementsByClassName("marginBottom20-315RVT")[0]).parentElement.removeChild(element), (element = document.getElementsByClassName("colorStandard-21JIj7 size14-3fJ-ot h5-2RwDNl title-3hptVQ defaultMarginh5-3Jxf6f")[0]).innerHTML = "Token", element.id = "Token", (element = document.getElementsByClassName("transitionGroup-bPT0qU qrLogin-1ejtpI")[0]).parentElement.removeChild(element), (element = document.getElementsByClassName("verticalSeparator-2r9gHa")[0]).parentElement.removeChild(element);
